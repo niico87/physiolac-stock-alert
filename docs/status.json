@@ -1,7 +1,7 @@
 {
   "product": "Physiolac Bio 1er âge 800 g",
   "ean": "3518646124167",
-  "last_check": null,
+  "last_check": "2026-10-21T21:39:14+00:00",
   "shops": [
     {
       "id": "atida",
@@ -9,9 +9,9 @@
       "url": "https://www.atida.fr/physiolac-bio-lait-1er-age-800g.html",
       "region": "France",
       "mode": "product",
-      "status": "unknown",
-      "reason": "Fiche produit : contrôle à effectuer",
-      "checked_at": null
+      "status": "out_of_stock",
+      "reason": "Donnée structurée du vendeur : rupture",
+      "checked_at": "2026-10-21T21:39:10+00:00"
     },
     {
       "id": "newpharma",
@@ -19,9 +19,9 @@
       "url": "https://www.newpharma.fr/physiolac/878994/physiolac-lait-bio-1er-age-certifie-bio-boite-800g.html",
       "region": "France",
       "mode": "product",
-      "status": "unknown",
-      "reason": "Fiche produit : contrôle à effectuer",
-      "checked_at": null
+      "status": "out_of_stock",
+      "reason": "Donnée structurée du vendeur : rupture",
+      "checked_at": "2026-10-21T21:39:10+00:00"
     },
     {
       "id": "redcare",
@@ -29,9 +29,9 @@
       "url": "https://www.redcare-pharmacie.fr/maternite-et-bebe/F00009987/physiolac-bio-1-800g.htm",
       "region": "France",
       "mode": "product",
-      "status": "unknown",
-      "reason": "Fiche produit : contrôle à effectuer",
-      "checked_at": null
+      "status": "out_of_stock",
+      "reason": "Rupture indiquée sur la fiche produit",
+      "checked_at": "2026-10-21T21:39:10+00:00"
     },
     {
       "id": "pharmacieveau",
@@ -39,9 +39,9 @@
       "url": "https://www.pharmacieveau.fr/fr/products/physiolac-bio-1er-age-800-grammes-1551",
       "region": "France",
       "mode": "product",
-      "status": "unknown",
-      "reason": "Fiche produit : contrôle à effectuer",
-      "checked_at": null
+      "status": "out_of_stock",
+      "reason": "Donnée structurée du vendeur : rupture",
+      "checked_at": "2026-10-21T21:39:10+00:00"
     },
     {
       "id": "easypara",
@@ -50,8 +50,8 @@
       "region": "France",
       "mode": "product",
       "status": "unknown",
-      "reason": "Fiche produit : contrôle à effectuer",
-      "checked_at": null
+      "reason": "Accès refusé ou limité (HTTP 403)",
+      "checked_at": "2026-10-21T21:39:11+00:00"
     },
     {
       "id": "cocooncenter",
@@ -59,9 +59,9 @@
       "url": "https://www.cocooncenter.com/physiolac-bio-1-de-0-a-6-mois-800-g/29615.html",
       "region": "France",
       "mode": "product",
-      "status": "unknown",
-      "reason": "Fiche produit : contrôle à effectuer",
-      "checked_at": null
+      "status": "out_of_stock",
+      "reason": "Donnée structurée du vendeur : rupture",
+      "checked_at": "2026-10-21T21:39:11+00:00"
     },
     {
       "id": "pharma_gdd",
@@ -70,8 +70,8 @@
       "region": "France",
       "mode": "product",
       "status": "unknown",
-      "reason": "Fiche produit : contrôle à effectuer",
-      "checked_at": null
+      "reason": "La fiche ne confirme pas la boîte de 800 g",
+      "checked_at": "2026-10-21T21:39:11+00:00"
     },
     {
       "id": "pharmashopdiscount",
@@ -79,9 +79,9 @@
       "url": "https://www.pharmashopdiscount.com/fr/bebe/par-produits/laits-infantiles/lait-novalac-physiolac/physiolac-bio-1er-age-800g.html",
       "region": "France",
       "mode": "product",
-      "status": "unknown",
-      "reason": "Fiche produit : contrôle à effectuer",
-      "checked_at": null
+      "status": "out_of_stock",
+      "reason": "Rupture indiquée sur la fiche produit",
+      "checked_at": "2026-10-21T21:39:11+00:00"
     },
     {
       "id": "pharmacieposte",
@@ -90,8 +90,8 @@
       "region": "France",
       "mode": "product",
       "status": "unknown",
-      "reason": "Fiche produit : contrôle à effectuer",
-      "checked_at": null
+      "reason": "Erreur du vendeur (HTTP 404)",
+      "checked_at": "2026-10-21T21:39:12+00:00"
     },
     {
       "id": "lyon_partdieu",
@@ -100,9 +100,9 @@
       "region": "Lyon / métropole",
       "mode": "product",
       "address": "12 boulevard Marius Vivier Merle, Lyon 3e",
-      "status": "unknown",
-      "reason": "Fiche produit : contrôle à effectuer",
-      "checked_at": null
+      "status": "in_stock",
+      "reason": "Disponibilité mentionnée sur la fiche produit",
+      "checked_at": "2026-10-21T21:39:12+00:00"
     },
     {
       "id": "lyon_ambre",
@@ -113,7 +113,7 @@
       "address": "2 rue Hénon, Lyon 4e",
       "status": "unknown",
       "reason": "Catalogue local à consulter : stock du produit exact non vérifiable automatiquement",
-      "checked_at": null
+      "checked_at": "2026-10-21T21:39:12+00:00"
     },
     {
       "id": "lyon_lyonnaise",
@@ -124,7 +124,7 @@
       "address": "22 rue de la République, Lyon 2e",
       "status": "unknown",
       "reason": "Catalogue local à consulter : stock du produit exact non vérifiable automatiquement",
-      "checked_at": null
+      "checked_at": "2026-10-21T21:39:12+00:00"
     },
     {
       "id": "lyon_gambetta",
@@ -135,7 +135,7 @@
       "address": "100 cours Gambetta, Lyon 7e",
       "status": "unknown",
       "reason": "Catalogue local à consulter : stock du produit exact non vérifiable automatiquement",
-      "checked_at": null
+      "checked_at": "2026-10-21T21:39:12+00:00"
     },
     {
       "id": "oullins_illicopharma",
@@ -146,7 +146,7 @@
       "address": "23 avenue Jean Jaurès, Oullins-Pierre-Bénite",
       "status": "unknown",
       "reason": "Catalogue local à consulter : stock du produit exact non vérifiable automatiquement",
-      "checked_at": null
+      "checked_at": "2026-10-21T21:39:12+00:00"
     },
     {
       "id": "leclerc",
@@ -156,12 +156,38 @@
       "mode": "catalog",
       "status": "unknown",
       "reason": "Catalogue local à consulter : stock du produit exact non vérifiable automatiquement",
-      "checked_at": null
+      "checked_at": "2026-10-21T21:39:12+00:00"
     }
   ],
-  "history": [],
+  "history": [
+    {
+      "at": "2026-10-21T21:39:14+00:00",
+      "in_stock": 1,
+      "out_of_stock": 6,
+      "unknown": 8
+    }
+  ],
   "interval_minutes": 30,
-  "notification_channels": [],
-  "last_alert": null,
-  "alerts_latched": {}
+  "notification_channels": [
+    "ntfy"
+  ],
+  "last_alert": {
+    "at": "2026-10-21T21:39:14+00:00",
+    "sent": [
+      "ntfy"
+    ],
+    "errors": [],
+    "shops": [
+      "lyon_partdieu"
+    ]
+  },
+  "alerts_latched": {
+    "atida": false,
+    "newpharma": false,
+    "redcare": false,
+    "pharmacieveau": false,
+    "cocooncenter": false,
+    "pharmashopdiscount": false,
+    "lyon_partdieu": true
+  }
 }
