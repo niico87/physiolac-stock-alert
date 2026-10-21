@@ -1,0 +1,167 @@
+{
+  "product": "Physiolac Bio 1er âge 800 g",
+  "ean": "3518646124167",
+  "last_check": null,
+  "shops": [
+    {
+      "id": "atida",
+      "name": "Atida / Santédiscount",
+      "url": "https://www.atida.fr/physiolac-bio-lait-1er-age-800g.html",
+      "region": "France",
+      "mode": "product",
+      "status": "unknown",
+      "reason": "Fiche produit : contrôle à effectuer",
+      "checked_at": null
+    },
+    {
+      "id": "newpharma",
+      "name": "Newpharma",
+      "url": "https://www.newpharma.fr/physiolac/878994/physiolac-lait-bio-1er-age-certifie-bio-boite-800g.html",
+      "region": "France",
+      "mode": "product",
+      "status": "unknown",
+      "reason": "Fiche produit : contrôle à effectuer",
+      "checked_at": null
+    },
+    {
+      "id": "redcare",
+      "name": "Redcare Pharmacie",
+      "url": "https://www.redcare-pharmacie.fr/maternite-et-bebe/F00009987/physiolac-bio-1-800g.htm",
+      "region": "France",
+      "mode": "product",
+      "status": "unknown",
+      "reason": "Fiche produit : contrôle à effectuer",
+      "checked_at": null
+    },
+    {
+      "id": "pharmacieveau",
+      "name": "Pharmacie Veau",
+      "url": "https://www.pharmacieveau.fr/fr/products/physiolac-bio-1er-age-800-grammes-1551",
+      "region": "France",
+      "mode": "product",
+      "status": "unknown",
+      "reason": "Fiche produit : contrôle à effectuer",
+      "checked_at": null
+    },
+    {
+      "id": "easypara",
+      "name": "Easypara",
+      "url": "https://www.easypara.fr/lait-en-poudre-1-bio-pour-nourrissons-physiolac.html",
+      "region": "France",
+      "mode": "product",
+      "status": "unknown",
+      "reason": "Fiche produit : contrôle à effectuer",
+      "checked_at": null
+    },
+    {
+      "id": "cocooncenter",
+      "name": "Cocooncenter",
+      "url": "https://www.cocooncenter.com/physiolac-bio-1-de-0-a-6-mois-800-g/29615.html",
+      "region": "France",
+      "mode": "product",
+      "status": "unknown",
+      "reason": "Fiche produit : contrôle à effectuer",
+      "checked_at": null
+    },
+    {
+      "id": "pharma_gdd",
+      "name": "Pharma GDD",
+      "url": "https://www.pharma-gdd.com/fr/physiolac-bio-1er-age-800-g",
+      "region": "France",
+      "mode": "product",
+      "status": "unknown",
+      "reason": "Fiche produit : contrôle à effectuer",
+      "checked_at": null
+    },
+    {
+      "id": "pharmashopdiscount",
+      "name": "Pharmashopdiscount",
+      "url": "https://www.pharmashopdiscount.com/fr/bebe/par-produits/laits-infantiles/lait-novalac-physiolac/physiolac-bio-1er-age-800g.html",
+      "region": "France",
+      "mode": "product",
+      "status": "unknown",
+      "reason": "Fiche produit : contrôle à effectuer",
+      "checked_at": null
+    },
+    {
+      "id": "pharmacieposte",
+      "name": "Pharmacie de la Poste",
+      "url": "https://pharmacieposte.fr/laits-bebes-bio/46087-physiolac-bio-1a-800grs-3518646124167.html",
+      "region": "France",
+      "mode": "product",
+      "status": "unknown",
+      "reason": "Fiche produit : contrôle à effectuer",
+      "checked_at": null
+    },
+    {
+      "id": "lyon_partdieu",
+      "name": "Grande Pharmacie de la Part-Dieu (Lyon 3e)",
+      "url": "https://grande-pharmacie-part-dieu-lyon.apothical.fr/medicament-produit-parapharmacie/97325-physiolac-bio-1er-age-lait-en-poudre-boite-de-800-g",
+      "region": "Lyon / métropole",
+      "mode": "product",
+      "address": "12 boulevard Marius Vivier Merle, Lyon 3e",
+      "status": "unknown",
+      "reason": "Fiche produit : contrôle à effectuer",
+      "checked_at": null
+    },
+    {
+      "id": "lyon_ambre",
+      "name": "Pharmacie de l’Ambre (Lyon 4e)",
+      "url": "https://pharmaciedelambre.fr/",
+      "region": "Lyon / métropole",
+      "mode": "catalog",
+      "address": "2 rue Hénon, Lyon 4e",
+      "status": "unknown",
+      "reason": "Catalogue local à consulter : stock du produit exact non vérifiable automatiquement",
+      "checked_at": null
+    },
+    {
+      "id": "lyon_lyonnaise",
+      "name": "Grande Pharmacie Lyonnaise (Lyon 2e)",
+      "url": "https://grandepharmacie-lyonnaise.fr/marques",
+      "region": "Lyon / métropole",
+      "mode": "catalog",
+      "address": "22 rue de la République, Lyon 2e",
+      "status": "unknown",
+      "reason": "Catalogue local à consulter : stock du produit exact non vérifiable automatiquement",
+      "checked_at": null
+    },
+    {
+      "id": "lyon_gambetta",
+      "name": "Pharmacie Gambetta (Lyon 7e)",
+      "url": "https://pharmacie-gambetta-lyon.pharmabest.com/produits",
+      "region": "Lyon / métropole",
+      "mode": "catalog",
+      "address": "100 cours Gambetta, Lyon 7e",
+      "status": "unknown",
+      "reason": "Catalogue local à consulter : stock du produit exact non vérifiable automatiquement",
+      "checked_at": null
+    },
+    {
+      "id": "oullins_illicopharma",
+      "name": "IllicoPHARMA — Grande Pharmacie d’Oullins",
+      "url": "https://www.illicopharma.com/",
+      "region": "Lyon / métropole",
+      "mode": "catalog",
+      "address": "23 avenue Jean Jaurès, Oullins-Pierre-Bénite",
+      "status": "unknown",
+      "reason": "Catalogue local à consulter : stock du produit exact non vérifiable automatiquement",
+      "checked_at": null
+    },
+    {
+      "id": "leclerc",
+      "name": "E.Leclerc Parapharmacie (stock magasin variable)",
+      "url": "https://www.e.leclerc/fp/physiolac-lait-infantile-bio-1er-age-800g-3518646124167",
+      "region": "France",
+      "mode": "catalog",
+      "status": "unknown",
+      "reason": "Catalogue local à consulter : stock du produit exact non vérifiable automatiquement",
+      "checked_at": null
+    }
+  ],
+  "history": [],
+  "interval_minutes": 30,
+  "notification_channels": [],
+  "last_alert": null,
+  "alerts_latched": {}
+}

@@ -1,0 +1,75 @@
+name: Physiolac - surveillance et alertes
+on:
+  schedule:
+    - cron: '8,38 * * * *'
+  workflow_dispatch:
+    inputs:
+      send_test:
+        description: 'Envoyer un test des notifications (sans acheter ni contrôler les stocks)'
+        type: boolean
+        required: false
+        default: false
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: physiolac-monitor
+  cancel-in-progress: false
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+      - name: Installer les dépendances
+        run: pip install -r requirements.txt
+      - name: Contrôler les disponibilités
+        env: &notification_secrets
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          NTFY_BASE_URL: ${{ vars.NTFY_BASE_URL }}
+          NTFY_ACCESS_TOKEN: ${{ secrets.NTFY_ACCESS_TOKEN }}
+          SMTP_HOST: ${{ vars.SMTP_HOST }}
+          SMTP_PORT: ${{ vars.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          EMAIL_TO: ${{ secrets.EMAIL_TO }}
+          EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          PUSHOVER_TOKEN: ${{ secrets.PUSHOVER_TOKEN }}
+          PUSHOVER_USER: ${{ secrets.PUSHOVER_USER }}
+        run: python monitor.py --once
+      - name: Essai de notification
+        if: ${{ inputs.send_test }}
+        env: *notification_secrets
+        run: python monitor.py --test-alert
+      - name: Générer le site statique
+        run: |
+          python build_cloud.py
+          cp data/status.json docs/status.json
+      - name: Enregistrer les résultats
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/status.json docs/index.html docs/status.json
+          if ! git diff --staged --quiet; then
+            git commit -m "Vérification automatique des stocks"
+            git pull --rebase
+            git push
+          fi
+      - name: Préparer GitHub Pages
+        uses: actions/configure-pages@v5
+      - name: Charger le site web
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: docs
+      - name: Publier le tableau de bord
+        id: deployment
+        uses: actions/deploy-pages@v4
