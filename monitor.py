@@ -31,6 +31,12 @@ UA = 'PhysiolacStockAlert/1.0 (personal availability checker; reasonable polling
 RUN_LOCK = Lock()
 
 NEGATIVE = [
+    # Attention aux expressions contenant « en stock » / « disponible » sous
+    # une négation : ce sont des ruptures, jamais des preuves de disponibilité.
+    r'nous n.avons pas ce produit en stock',
+    r'ce produit (?:n.est pas|n.est plus|est non) (?:en stock|disponible)',
+    r'(?:pas|plus|non) (?:en stock|disponible)',
+    r'aucun(?:e)? (?:produit )?en stock',
     r'ce produit n.est plus disponible', r'article bient[oô]t disponible',
     r'en cours de r[eé]approvisionnement', r'm.alerter du retour en stock',
     r'm.avertir du retour en stock', r'plus disponible [aà] la vente',
@@ -39,7 +45,7 @@ NEGATIVE = [
 ]
 POSITIVE = [
     r'faible en stock', r'\ben stock\b', r'disponible en ligne',
-    r'\bdisponible\b', r'ajouter au panier', r'\bcommander\b'
+    r'ajouter au panier', r'\bcommander\b'
 ]
 # Rules for high-confidence text from the primary product block, NOT related products.
 SHOP_NEGATIVE = {
@@ -47,6 +53,7 @@ SHOP_NEGATIVE = {
     'pharma_gdd': [r'800\s*g\s*indisponible', r'm.avertir du retour en stock'],
     'cocooncenter': [r'article bient[oô]t disponible'],
     'easypara': [r'm.alerter du retour en stock', r'rupture de stock', r'plus disponible [aà] la vente'],
+    'lyon_partdieu': [r'nous n.avons pas ce produit en stock'],
 }
 
 
@@ -163,20 +170,21 @@ def parse_page(html, shop_id):
     ld = jsonld_product(soup)
     body = extract_main_text(soup)
     low_body = body.lower()
-    # Seller-specific explicit negative signals outrank generic "en stock" in
-    # recommended products, menus, or secondary elements.
+    # Seller-specific explicit negative signals outrank generic « en stock »,
+    # including the phrase « nous n'avons pas ce produit en stock ».
     for pattern in SHOP_NEGATIVE.get(shop_id, []):
         if re.search(pattern, low_body):
             return 'out_of_stock', 'Rupture indiquée sur la fiche produit'
-    # If site provides reliable JSON-LD, prefer it.
-    if ld:
-        return ld
+    # The visible product page can contradict stale JSON-LD availability.
+    # Resolve visible, product-scoped negative messages BEFORE considering JSON-LD.
     neg = [p for p in NEGATIVE if re.search(p, low_body)]
     if neg:
         return 'out_of_stock', 'Rupture indiquée sur la fiche produit'
+    if ld:
+        return ld
     # Without an actual stock phrase, a generic cart button is not sufficient
     # evidence (buttons may remain on sold-out sites).
-    pos = [p for p in POSITIVE[:4] if re.search(p, low_body)]
+    pos = [p for p in POSITIVE[:3] if re.search(p, low_body)]
     if pos:
         return 'in_stock', 'Disponibilité mentionnée sur la fiche produit'
     return 'unknown', 'Aucune indication de stock suffisamment fiable'
