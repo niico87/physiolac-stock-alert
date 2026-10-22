@@ -54,6 +54,8 @@ SHOP_NEGATIVE = {
     'cocooncenter': [r'article bient[oô]t disponible'],
     'easypara': [r'm.alerter du retour en stock', r'rupture de stock', r'plus disponible [aà] la vente'],
     'lyon_partdieu': [r'nous n.avons pas ce produit en stock'],
+    'pharmacierochettes': [r'\bindisponible\b'],
+    'pharmacie_dulac': [r'\b[ée]puis[ée]\b'],
 }
 
 
@@ -156,20 +158,30 @@ def parse_page(html, shop_id):
     h1 = soup.find('h1')
     primary_title = clean(h1.get_text(' ', strip=True)) if h1 else title
     if 'physiolac' not in (primary_title + ' ' + title).lower():
-        return 'unknown', 'La fiche produit n’est pas identifiable'
+        # Certains vendeurs (Saint-Géry) affichent seulement le titre court du
+        # produit dans h1 : autoriser la fiche UNIQUEMENT si son EAN exact est
+        # présent et que l'URL pointe vers cette fiche produit individuelle.
+        short_title = shop_id == 'pharmacie_saintgery'
+        product_body = clean(soup.get_text(' ', strip=True))[:8000]
+        if not (short_title and EAN in product_body):
+            return 'unknown', 'La fiche produit n’est pas identifiable'
     # Exclude anti-reflux, thickened, second-stage, and regular non-organic variants.
     low = primary_title.lower()
     if re.search(r'\b(?:ar|anti.r[eé]gurg|[ée]paiss|bio\s*[23]\b|2[eè]me|3[eè]me|2e\W*âge|2[èe]me\W*âge|croissance|400\s*g|900\s*g)', low):
         return 'unknown', 'Variante du lait non conforme à la cible'
     if not re.search(r'\bbio\b', low):
         return 'unknown', 'La fiche ne confirme pas la variante Bio'
-    if not re.search(r'\b1\b|1er|premier|0\s*(?:-|à)\s*6', low):
+    if not re.search(r'\b1\b|1er|1re|1ère|premier|0\s*(?:-|à)\s*6', low):
         return 'unknown', 'La fiche ne confirme pas le 1er âge'
     if not re.search(r'800\s*g|800\s*grammes', primary_title + ' ' + title, re.I):
         return 'unknown', 'La fiche ne confirme pas la boîte de 800 g'
     ld = jsonld_product(soup)
     body = extract_main_text(soup)
     low_body = body.lower()
+    # Une précommande ou une disponibilité chez un fournisseur tiers n'est
+    # jamais la preuve que le vendeur peut expédier immédiatement le produit.
+    if re.search(r'\bpr[ée]commande\b|pr[ée].commande|en stock chez (?:notre|le|un) fournisseur|sur commande seulement', low_body):
+        return 'unknown', 'Précommande ou stock fournisseur : disponibilité immédiate non confirmée'
     # Seller-specific explicit negative signals outrank generic « en stock »,
     # including the phrase « nous n'avons pas ce produit en stock ».
     for pattern in SHOP_NEGATIVE.get(shop_id, []):
