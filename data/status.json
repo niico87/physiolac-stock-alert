@@ -1,7 +1,7 @@
 {
   "product": "Physiolac Bio 1er âge 800 g",
   "ean": "3518646124167",
-  "last_check": "2026-10-22T05:10:39+00:00",
+  "last_check": "2026-10-22T06:07:55+00:00",
   "shops": [
     {
       "id": "atida",
@@ -11,7 +11,7 @@
       "mode": "product",
       "status": "out_of_stock",
       "reason": "Rupture indiquée sur la fiche produit",
-      "checked_at": "2026-10-22T05:10:36+00:00"
+      "checked_at": "2026-10-22T06:07:51+00:00"
     },
     {
       "id": "newpharma",
@@ -21,7 +21,7 @@
       "mode": "product",
       "status": "out_of_stock",
       "reason": "Donnée structurée du vendeur : rupture",
-      "checked_at": "2026-10-22T05:10:36+00:00"
+      "checked_at": "2026-10-22T06:07:51+00:00"
     },
     {
       "id": "redcare",
@@ -31,7 +31,7 @@
       "mode": "product",
       "status": "out_of_stock",
       "reason": "Rupture indiquée sur la fiche produit",
-      "checked_at": "2026-10-22T05:10:36+00:00"
+      "checked_at": "2026-10-22T06:07:51+00:00"
     },
     {
       "id": "pharmacieveau",
@@ -41,7 +41,7 @@
       "mode": "product",
       "status": "out_of_stock",
       "reason": "Rupture indiquée sur la fiche produit",
-      "checked_at": "2026-10-22T05:10:36+00:00"
+      "checked_at": "2026-10-22T06:07:51+00:00"
     },
     {
       "id": "easypara",
@@ -51,7 +51,7 @@
       "mode": "product",
       "status": "unknown",
       "reason": "Accès refusé ou limité (HTTP 403)",
-      "checked_at": "2026-10-22T05:10:37+00:00"
+      "checked_at": "2026-10-22T06:07:52+00:00"
     },
     {
       "id": "cocooncenter",
@@ -61,7 +61,7 @@
       "mode": "product",
       "status": "out_of_stock",
       "reason": "Rupture indiquée sur la fiche produit",
-      "checked_at": "2026-10-22T05:10:37+00:00"
+      "checked_at": "2026-10-22T06:07:52+00:00"
     },
     {
       "id": "pharma_gdd",
@@ -71,7 +71,7 @@
       "mode": "product",
       "status": "unknown",
       "reason": "La fiche ne confirme pas la boîte de 800 g",
-      "checked_at": "2026-10-22T05:10:37+00:00"
+      "checked_at": "2026-10-22T06:07:52+00:00"
     },
     {
       "id": "pharmashopdiscount",
@@ -81,7 +81,7 @@
       "mode": "product",
       "status": "out_of_stock",
       "reason": "Rupture indiquée sur la fiche produit",
-      "checked_at": "2026-10-22T05:10:37+00:00"
+      "checked_at": "2026-10-22T06:07:53+00:00"
     },
     {
       "id": "pharmacieposte",
@@ -91,7 +91,7 @@
       "mode": "product",
       "status": "unknown",
       "reason": "Erreur du vendeur (HTTP 404)",
-      "checked_at": "2026-10-22T05:10:37+00:00"
+      "checked_at": "2026-10-22T06:07:53+00:00"
     },
     {
       "id": "lyon_partdieu",
@@ -102,7 +102,7 @@
       "address": "12 boulevard Marius Vivier Merle, Lyon 3e",
       "status": "out_of_stock",
       "reason": "Rupture indiquée sur la fiche produit",
-      "checked_at": "2026-10-22T05:10:38+00:00"
+      "checked_at": "2026-10-22T06:07:53+00:00"
     },
     {
       "id": "lyon_ambre",
@@ -113,7 +113,7 @@
       "address": "2 rue Hénon, Lyon 4e",
       "status": "unknown",
       "reason": "Catalogue local à consulter : stock du produit exact non vérifiable automatiquement",
-      "checked_at": "2026-10-22T05:10:38+00:00"
+      "checked_at": "2026-10-22T06:07:53+00:00"
     },
     {
       "id": "lyon_lyonnaise",
@@ -124,7 +124,7 @@
       "address": "22 rue de la République, Lyon 2e",
       "status": "unknown",
       "reason": "Catalogue local à consulter : stock du produit exact non vérifiable automatiquement",
-      "checked_at": "2026-10-22T05:10:38+00:00"
+      "checked_at": "2026-10-22T06:07:53+00:00"
     },
     {
       "id": "lyon_gambetta",
@@ -135,7 +135,7 @@
       "address": "100 cours Gambetta, Lyon 7e",
       "status": "unknown",
       "reason": "Catalogue local à consulter : stock du produit exact non vérifiable automatiquement",
-      "checked_at": "2026-10-22T05:10:38+00:00"
+      "checked_at": "2026-10-22T06:07:53+00:00"
     },
     {
       "id": "oullins_illicopharma",
@@ -146,7 +146,7 @@
       "address": "23 avenue Jean Jaurès, Oullins-Pierre-Bénite",
       "status": "unknown",
       "reason": "Catalogue local à consulter : stock du produit exact non vérifiable automatiquement",
-      "checked_at": "2026-10-22T05:10:38+00:00"
+      "checked_at": "2026-10-22T06:07:53+00:00"
     },
     {
       "id": "leclerc",
@@ -156,7 +156,7 @@
       "mode": "catalog",
       "status": "unknown",
       "reason": "Catalogue local à consulter : stock du produit exact non vérifiable automatiquement",
-      "checked_at": "2026-10-22T05:10:38+00:00"
+      "checked_at": "2026-10-22T06:07:53+00:00"
     }
   ],
   "history": [
@@ -246,6 +246,12 @@
     },
     {
       "at": "2026-10-22T05:10:39+00:00",
+      "in_stock": 0,
+      "out_of_stock": 7,
+      "unknown": 8
+    },
+    {
+      "at": "2026-10-22T06:07:55+00:00",
       "in_stock": 0,
       "out_of_stock": 7,
       "unknown": 8
