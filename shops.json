@@ -4,63 +4,99 @@
     "name": "Atida / Santédiscount",
     "url": "https://www.atida.fr/physiolac-bio-lait-1er-age-800g.html",
     "region": "France",
-    "mode": "product"
+    "mode": "product",
+    "home_delivery": "France métropolitaine / Lyon 69006",
+    "delivery_information": "Livraison à domicile en France métropolitaine (Colissimo / Chronopost)",
+    "delivery_source": "https://support.atida.fr/hc/fr/articles/33594215200658-Nos-diff%C3%A9rentes-solutions-de-livraison",
+    "delivery_checked_date": "2026-10-22"
   },
   {
     "id": "newpharma",
     "name": "Newpharma",
     "url": "https://www.newpharma.fr/physiolac/878994/physiolac-lait-bio-1er-age-certifie-bio-boite-800g.html",
     "region": "France",
-    "mode": "product"
+    "mode": "product",
+    "home_delivery": "France métropolitaine / Lyon 69006",
+    "delivery_information": "Livraison à une adresse en France, y compris Lyon 6e (sous réserve de validation du panier)",
+    "delivery_source": "https://www.newpharma.fr/",
+    "delivery_checked_date": "2026-10-22"
   },
   {
     "id": "redcare",
     "name": "Redcare Pharmacie",
     "url": "https://www.redcare-pharmacie.fr/maternite-et-bebe/F00009987/physiolac-bio-1-800g.htm",
     "region": "France",
-    "mode": "product"
+    "mode": "product",
+    "home_delivery": "France métropolitaine / Lyon 69006",
+    "delivery_information": "Livraison à domicile partout en France métropolitaine",
+    "delivery_source": "https://www.redcare-pharmacie.fr/faq/",
+    "delivery_checked_date": "2026-10-22"
   },
   {
     "id": "pharmacieveau",
     "name": "Pharmacie Veau",
     "url": "https://www.pharmacieveau.fr/fr/products/physiolac-bio-1er-age-800-grammes-1551",
     "region": "France",
-    "mode": "product"
+    "mode": "product",
+    "home_delivery": "France métropolitaine / Lyon 69006",
+    "delivery_information": "Colissimo et Chronopost à domicile en France",
+    "delivery_source": "https://www.pharmacieveau.fr/fr/livraison",
+    "delivery_checked_date": "2026-10-22"
   },
   {
     "id": "easypara",
     "name": "Easypara",
     "url": "https://www.easypara.fr/lait-en-poudre-1-bio-pour-nourrissons-physiolac.html",
     "region": "France",
-    "mode": "product"
+    "mode": "product",
+    "home_delivery": "France métropolitaine / Lyon 69006",
+    "delivery_information": "Colissimo / Colis Privé / Chronopost à domicile en France métropolitaine",
+    "delivery_source": "https://www.easypara.fr/nos-transporteurs.html",
+    "delivery_checked_date": "2026-10-22"
   },
   {
     "id": "cocooncenter",
     "name": "Cocooncenter",
     "url": "https://www.cocooncenter.com/physiolac-bio-1-de-0-a-6-mois-800-g/29615.html",
     "region": "France",
-    "mode": "product"
+    "mode": "product",
+    "home_delivery": "France métropolitaine / Lyon 69006",
+    "delivery_information": "Livraison à domicile proposée en France (selon modalités au panier)",
+    "delivery_source": "https://www.cocooncenter.com/physiolac-bio-1-de-0-a-6-mois-800-g/29615.html",
+    "delivery_checked_date": "2026-10-22"
   },
   {
     "id": "pharma_gdd",
     "name": "Pharma GDD",
     "url": "https://www.pharma-gdd.com/fr/physiolac-bio-1er-age-800-g",
     "region": "France",
-    "mode": "product"
+    "mode": "product",
+    "home_delivery": "France métropolitaine / Lyon 69006",
+    "delivery_information": "Livraison standard à domicile en France",
+    "delivery_source": "https://www.pharma-gdd.com/fr/aide/livraison",
+    "delivery_checked_date": "2026-10-22"
   },
   {
     "id": "pharmashopdiscount",
     "name": "Pharmashopdiscount",
     "url": "https://www.pharmashopdiscount.com/fr/bebe/par-produits/laits-infantiles/lait-novalac-physiolac/physiolac-bio-1er-age-800g.html",
     "region": "France",
-    "mode": "product"
+    "mode": "product",
+    "home_delivery": "France métropolitaine / Lyon 69006",
+    "delivery_information": "Colissimo domicile ou DPD Predict en France métropolitaine",
+    "delivery_source": "https://www.pharmashopdiscount.com/fr/parapharmacie-en-ligne/livraison.html",
+    "delivery_checked_date": "2026-10-22"
   },
   {
     "id": "pharmacieposte",
     "name": "Pharmacie de la Poste",
     "url": "https://pharmacieposte.fr/laits-bebes-bio/46087-physiolac-bio-1a-800grs-3518646124167.html",
     "region": "France",
-    "mode": "product"
+    "mode": "product",
+    "home_delivery": "France métropolitaine / Lyon 69006",
+    "delivery_information": "Colissimo domicile avec ou sans signature en France",
+    "delivery_source": "https://pharmacieposte.fr/",
+    "delivery_checked_date": "2026-10-22"
   },
   {
     "id": "lyon_partdieu",
@@ -68,31 +104,12 @@
     "url": "https://grande-pharmacie-part-dieu-lyon.apothical.fr/medicament-produit-parapharmacie/97325-physiolac-bio-1er-age-lait-en-poudre-boite-de-800-g",
     "region": "Lyon / métropole",
     "mode": "product",
-    "address": "12 boulevard Marius Vivier Merle, Lyon 3e"
-  },
-  {
-    "id": "lyon_ambre",
-    "name": "Pharmacie de l’Ambre (Lyon 4e)",
-    "url": "https://pharmaciedelambre.fr/",
-    "region": "Lyon / métropole",
-    "mode": "catalog",
-    "address": "2 rue Hénon, Lyon 4e"
-  },
-  {
-    "id": "lyon_lyonnaise",
-    "name": "Grande Pharmacie Lyonnaise (Lyon 2e)",
-    "url": "https://grandepharmacie-lyonnaise.fr/marques",
-    "region": "Lyon / métropole",
-    "mode": "catalog",
-    "address": "22 rue de la République, Lyon 2e"
-  },
-  {
-    "id": "lyon_gambetta",
-    "name": "Pharmacie Gambetta (Lyon 7e)",
-    "url": "https://pharmacie-gambetta-lyon.pharmabest.com/produits",
-    "region": "Lyon / métropole",
-    "mode": "catalog",
-    "address": "100 cours Gambetta, Lyon 7e"
+    "address": "12 boulevard Marius Vivier Merle, Lyon 3e",
+    "home_delivery": "France métropolitaine / Lyon 69006",
+    "delivery_information": "Livraison express dans un rayon de 5 km autour de la pharmacie (Lyon 6e en principe couvert ; à valider à l’adresse exacte)",
+    "delivery_source": "https://grande-pharmacie-part-dieu-lyon.apothical.fr/modes-de-recuperation",
+    "delivery_checked_date": "2026-10-22",
+    "note": "Livraison annoncée dans un rayon de 5 km ; la couverture de l’adresse exacte dans Lyon 6e doit être confirmée au panier."
   },
   {
     "id": "oullins_illicopharma",
@@ -100,79 +117,69 @@
     "url": "https://www.illicopharma.com/",
     "region": "Lyon / métropole",
     "mode": "catalog",
-    "address": "23 avenue Jean Jaurès, Oullins-Pierre-Bénite"
-  },
-  {
-    "id": "leclerc",
-    "name": "E.Leclerc Parapharmacie (stock magasin variable)",
-    "url": "https://www.e.leclerc/fp/physiolac-lait-infantile-bio-1er-age-800g-3518646124167",
-    "region": "France",
-    "mode": "catalog"
-  },
-  {
-    "id": "pharmacieoccitane",
-    "name": "Pharmacie Occitane",
-    "url": "https://pharmacieoccitane.fr/produits/dietetique-bebe-maman-bebe-maman-laits-et-aliments-premier-age-physiolac-physiolac-bio-1-lait-pdre-b-800g/urn%3Aexternal%3Avidal%3A669301",
-    "region": "France",
-    "mode": "product"
+    "address": "23 avenue Jean Jaurès, Oullins-Pierre-Bénite",
+    "home_delivery": "France métropolitaine / Lyon 69006",
+    "delivery_information": "Colissimo ou Colis Privé à domicile en France métropolitaine, sous réserve de l’offre du produit exact",
+    "delivery_source": "https://www.illicopharma.com/content/1-procedures-de-livraison-et-de-retour-sur-illicopharmacom",
+    "delivery_checked_date": "2026-10-22",
+    "note": "Livraison à domicile validée pour le vendeur ; aucune fiche directe du lait exact n’est surveillée, catalogue manuel uniquement."
   },
   {
     "id": "soinetnature",
     "name": "Soin et Nature",
     "url": "https://www.soin-et-nature.com/fr/23452-physiolac-bio-1-lait-en-poudre-800g.html",
     "region": "France",
-    "mode": "product"
+    "mode": "product",
+    "home_delivery": "France métropolitaine / Lyon 69006",
+    "delivery_information": "Colissimo à domicile en France métropolitaine",
+    "delivery_source": "https://www.soin-et-nature.com/fr/content/28-questions-frequentes",
+    "delivery_checked_date": "2026-10-22"
   },
   {
     "id": "pharmacierochettes",
     "name": "Pharmacie des Rochettes",
     "url": "https://pharmaciedesrochettes.fr/produit/gilbert-physiolac-bio-lait-1er-age-800g",
     "region": "France",
-    "mode": "product"
-  },
-  {
-    "id": "lafayette_annecy",
-    "name": "Pharmacie Lafayette du Lac (Annecy)",
-    "url": "https://www.pharmacielafayette.com/annecy/physiolac-bio-1-lait-infantile-1er-age-800g-117658",
-    "region": "Annecy / retrait local",
     "mode": "product",
-    "address": "Annecy"
-  },
-  {
-    "id": "pharmacie_saintgery",
-    "name": "Pharmacie Saint Géry",
-    "url": "https://pharmaciesaintgery.fr/produit/bio-1er-age-de-0-a-6-mois-800g/",
-    "region": "France",
-    "mode": "product",
-    "ean": "3518646124167"
+    "home_delivery": "France métropolitaine / Lyon 69006",
+    "delivery_information": "Livraison standard ou prioritaire à domicile en France métropolitaine",
+    "delivery_source": "https://pharmaciedesrochettes.fr/page/offres-de-livraison-pharmacie-des-rochettes",
+    "delivery_checked_date": "2026-10-22"
   },
   {
     "id": "pharmapanda",
     "name": "PharmaPanda",
     "url": "https://pharmapanda.fr/laits-bio/46087-physiolac-bio-1-lait-infantile-de-0-a-6-mois-800gr-3518646124167.html",
     "region": "France",
-    "mode": "product"
-  },
-  {
-    "id": "pharmacie_dulac",
-    "name": "Pharmacie du Lac",
-    "url": "https://pharmaciedulac.bzh/produits/dietetique-bebe-maman-bebe-maman-laits-et-aliments-premier-age-physiolac-physiolac-bio-1-lait-pdre-b-800g/urn%3Aexternal%3Avidal%3A669301",
-    "region": "France",
-    "mode": "product"
+    "mode": "product",
+    "home_delivery": "France métropolitaine / Lyon 69006",
+    "delivery_information": "Livraison à domicile proposée en France ; gratuité exclut les laits infantiles",
+    "delivery_source": "https://pharmapanda.fr/",
+    "delivery_checked_date": "2026-10-22",
+    "note": "Les laits infantiles sont exclus de la gratuité annoncée ; vérifier frais et transporteur au panier."
   },
   {
     "id": "parapharmacie_lafayette",
     "name": "Parapharmacie Lafayette",
     "url": "https://www.parapharmacielafayette.com/fr/p/physiolac-bio-1-800-g-certbio-F29615.html",
     "region": "France",
-    "mode": "product"
+    "mode": "product",
+    "home_delivery": "France métropolitaine / Lyon 69006",
+    "delivery_information": "Colissimo à domicile en France métropolitaine",
+    "delivery_source": "https://www.parapharmacielafayette.com/fr/t/contactez-nous.html",
+    "delivery_checked_date": "2026-10-22"
   },
   {
     "id": "pharmacie_saintmartin",
     "name": "Pharmacie Saint-Martin",
     "url": "https://www.pharmaciesaintmartin.fr/produit/physiolac-bio-1-lait-en-poudre-0-a-6-mois-800g",
     "region": "France",
-    "mode": "product"
+    "mode": "product",
+    "home_delivery": "France métropolitaine / Lyon 69006",
+    "delivery_information": "Expédition à domicile par La Poste / SoColissimo annoncée, à confirmer pour 69006 au paiement",
+    "delivery_source": "https://www.pharmaciesaintmartin.fr/produit/physiolac-bio-1-lait-en-poudre-0-a-6-mois-800g",
+    "delivery_checked_date": "2026-10-22",
+    "note": "La fiche contient une description ambiguë évoquant une formule épaissie malgré EAN correct. Vérifier la boîte exacte avant achat."
   },
   {
     "id": "pharmashopi",
@@ -180,22 +187,10 @@
     "url": "https://www.pharmashopi.com/lait-en-poudre-bio-1re-age-croissance-mois-physiolac-pot-de-800-xml-25261_462_463-237944.html",
     "region": "France",
     "mode": "catalog",
-    "note": "Titre ambigu mentionnant croissance; EAN de la fiche non confirmé"
-  },
-  {
-    "id": "medimarket",
-    "name": "Medi-Market (formule / EAN à vérifier)",
-    "url": "https://medi-market.fr/fr/c/physiolac-bio-1-lait-poudre-nouvelle-formule-800g/p/75482",
-    "region": "France",
-    "mode": "catalog",
-    "note": "Nouvelle formule, EAN 3518646124167 non vérifié sur la fiche"
-  },
-  {
-    "id": "pharmamarket",
-    "name": "PharmaMarket (catalogue marque)",
-    "url": "https://www.pharmamarket.fr/marques/physiolac.html",
-    "region": "France",
-    "mode": "catalog",
-    "note": "Page de gamme: les stocks des autres formules ne confirment pas le Bio 1 800g"
+    "note": "Titre ambigu mentionnant croissance; EAN de la fiche non confirmé",
+    "home_delivery": "France métropolitaine / Lyon 69006",
+    "delivery_information": "Colissimo ou Chronopost à domicile en France métropolitaine",
+    "delivery_source": "https://www.pharmashopi.com/frais-de-livraison-pxl-53.html",
+    "delivery_checked_date": "2026-10-22"
   }
 ]
