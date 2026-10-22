@@ -1,7 +1,7 @@
 {
   "product": "Physiolac Bio 1er âge 800 g",
   "ean": "3518646124167",
-  "last_check": "2026-10-22T09:38:24+00:00",
+  "last_check": "2026-10-22T09:41:32+00:00",
   "shops": [
     {
       "id": "atida",
@@ -11,7 +11,7 @@
       "mode": "product",
       "status": "out_of_stock",
       "reason": "Rupture indiquée sur la fiche produit",
-      "checked_at": "2026-10-22T09:38:21+00:00"
+      "checked_at": "2026-10-22T09:41:26+00:00"
     },
     {
       "id": "newpharma",
@@ -21,7 +21,7 @@
       "mode": "product",
       "status": "out_of_stock",
       "reason": "Donnée structurée du vendeur : rupture",
-      "checked_at": "2026-10-22T09:38:21+00:00"
+      "checked_at": "2026-10-22T09:41:26+00:00"
     },
     {
       "id": "redcare",
@@ -31,7 +31,7 @@
       "mode": "product",
       "status": "out_of_stock",
       "reason": "Rupture indiquée sur la fiche produit",
-      "checked_at": "2026-10-22T09:38:21+00:00"
+      "checked_at": "2026-10-22T09:41:26+00:00"
     },
     {
       "id": "pharmacieveau",
@@ -41,7 +41,7 @@
       "mode": "product",
       "status": "out_of_stock",
       "reason": "Rupture indiquée sur la fiche produit",
-      "checked_at": "2026-10-22T09:38:21+00:00"
+      "checked_at": "2026-10-22T09:41:26+00:00"
     },
     {
       "id": "easypara",
@@ -51,7 +51,7 @@
       "mode": "product",
       "status": "unknown",
       "reason": "Accès refusé ou limité (HTTP 403)",
-      "checked_at": "2026-10-22T09:38:22+00:00"
+      "checked_at": "2026-10-22T09:41:27+00:00"
     },
     {
       "id": "cocooncenter",
@@ -61,7 +61,7 @@
       "mode": "product",
       "status": "out_of_stock",
       "reason": "Rupture indiquée sur la fiche produit",
-      "checked_at": "2026-10-22T09:38:22+00:00"
+      "checked_at": "2026-10-22T09:41:27+00:00"
     },
     {
       "id": "pharma_gdd",
@@ -71,7 +71,7 @@
       "mode": "product",
       "status": "unknown",
       "reason": "La fiche ne confirme pas la boîte de 800 g",
-      "checked_at": "2026-10-22T09:38:22+00:00"
+      "checked_at": "2026-10-22T09:41:27+00:00"
     },
     {
       "id": "pharmashopdiscount",
@@ -81,7 +81,7 @@
       "mode": "product",
       "status": "out_of_stock",
       "reason": "Rupture indiquée sur la fiche produit",
-      "checked_at": "2026-10-22T09:38:22+00:00"
+      "checked_at": "2026-10-22T09:41:27+00:00"
     },
     {
       "id": "pharmacieposte",
@@ -91,7 +91,7 @@
       "mode": "product",
       "status": "unknown",
       "reason": "Erreur du vendeur (HTTP 404)",
-      "checked_at": "2026-10-22T09:38:22+00:00"
+      "checked_at": "2026-10-22T09:41:28+00:00"
     },
     {
       "id": "lyon_partdieu",
@@ -102,7 +102,7 @@
       "address": "12 boulevard Marius Vivier Merle, Lyon 3e",
       "status": "out_of_stock",
       "reason": "Rupture indiquée sur la fiche produit",
-      "checked_at": "2026-10-22T09:38:23+00:00"
+      "checked_at": "2026-10-22T09:41:28+00:00"
     },
     {
       "id": "lyon_ambre",
@@ -113,7 +113,7 @@
       "address": "2 rue Hénon, Lyon 4e",
       "status": "unknown",
       "reason": "Catalogue local à consulter : stock du produit exact non vérifiable automatiquement",
-      "checked_at": "2026-10-22T09:38:23+00:00"
+      "checked_at": "2026-10-22T09:41:28+00:00"
     },
     {
       "id": "lyon_lyonnaise",
@@ -124,7 +124,7 @@
       "address": "22 rue de la République, Lyon 2e",
       "status": "unknown",
       "reason": "Catalogue local à consulter : stock du produit exact non vérifiable automatiquement",
-      "checked_at": "2026-10-22T09:38:23+00:00"
+      "checked_at": "2026-10-22T09:41:28+00:00"
     },
     {
       "id": "lyon_gambetta",
@@ -135,7 +135,7 @@
       "address": "100 cours Gambetta, Lyon 7e",
       "status": "unknown",
       "reason": "Catalogue local à consulter : stock du produit exact non vérifiable automatiquement",
-      "checked_at": "2026-10-22T09:38:23+00:00"
+      "checked_at": "2026-10-22T09:41:28+00:00"
     },
     {
       "id": "oullins_illicopharma",
@@ -146,7 +146,7 @@
       "address": "23 avenue Jean Jaurès, Oullins-Pierre-Bénite",
       "status": "unknown",
       "reason": "Catalogue local à consulter : stock du produit exact non vérifiable automatiquement",
-      "checked_at": "2026-10-22T09:38:23+00:00"
+      "checked_at": "2026-10-22T09:41:28+00:00"
     },
     {
       "id": "leclerc",
@@ -156,7 +156,132 @@
       "mode": "catalog",
       "status": "unknown",
       "reason": "Catalogue local à consulter : stock du produit exact non vérifiable automatiquement",
-      "checked_at": "2026-10-22T09:38:23+00:00"
+      "checked_at": "2026-10-22T09:41:28+00:00"
+    },
+    {
+      "id": "pharmacieoccitane",
+      "name": "Pharmacie Occitane",
+      "url": "https://pharmacieoccitane.fr/produits/dietetique-bebe-maman-bebe-maman-laits-et-aliments-premier-age-physiolac-physiolac-bio-1-lait-pdre-b-800g/urn%3Aexternal%3Avidal%3A669301",
+      "region": "France",
+      "mode": "product",
+      "status": "in_stock",
+      "reason": "Donnée structurée du vendeur : disponible",
+      "checked_at": "2026-10-22T09:41:28+00:00"
+    },
+    {
+      "id": "soinetnature",
+      "name": "Soin et Nature",
+      "url": "https://www.soin-et-nature.com/fr/23452-physiolac-bio-1-lait-en-poudre-800g.html",
+      "region": "France",
+      "mode": "product",
+      "status": "unknown",
+      "reason": "Précommande ou stock fournisseur : disponibilité immédiate non confirmée",
+      "checked_at": "2026-10-22T09:41:28+00:00"
+    },
+    {
+      "id": "pharmacierochettes",
+      "name": "Pharmacie des Rochettes",
+      "url": "https://pharmaciedesrochettes.fr/produit/gilbert-physiolac-bio-lait-1er-age-800g",
+      "region": "France",
+      "mode": "product",
+      "status": "out_of_stock",
+      "reason": "Rupture indiquée sur la fiche produit",
+      "checked_at": "2026-10-22T09:41:29+00:00"
+    },
+    {
+      "id": "lafayette_annecy",
+      "name": "Pharmacie Lafayette du Lac (Annecy)",
+      "url": "https://www.pharmacielafayette.com/annecy/physiolac-bio-1-lait-infantile-1er-age-800g-117658",
+      "region": "Annecy / retrait local",
+      "mode": "product",
+      "address": "Annecy",
+      "status": "out_of_stock",
+      "reason": "Rupture indiquée sur la fiche produit",
+      "checked_at": "2026-10-22T09:41:30+00:00"
+    },
+    {
+      "id": "pharmacie_saintgery",
+      "name": "Pharmacie Saint Géry",
+      "url": "https://pharmaciesaintgery.fr/produit/bio-1er-age-de-0-a-6-mois-800g/",
+      "region": "France",
+      "mode": "product",
+      "ean": "3518646124167",
+      "status": "unknown",
+      "reason": "La fiche produit n’est pas identifiable",
+      "checked_at": "2026-10-22T09:41:30+00:00"
+    },
+    {
+      "id": "pharmapanda",
+      "name": "PharmaPanda",
+      "url": "https://pharmapanda.fr/laits-bio/46087-physiolac-bio-1-lait-infantile-de-0-a-6-mois-800gr-3518646124167.html",
+      "region": "France",
+      "mode": "product",
+      "status": "unknown",
+      "reason": "La fiche produit n’est pas identifiable",
+      "checked_at": "2026-10-22T09:41:30+00:00"
+    },
+    {
+      "id": "pharmacie_dulac",
+      "name": "Pharmacie du Lac",
+      "url": "https://pharmaciedulac.bzh/produits/dietetique-bebe-maman-bebe-maman-laits-et-aliments-premier-age-physiolac-physiolac-bio-1-lait-pdre-b-800g/urn%3Aexternal%3Avidal%3A669301",
+      "region": "France",
+      "mode": "product",
+      "status": "out_of_stock",
+      "reason": "Rupture indiquée sur la fiche produit",
+      "checked_at": "2026-10-22T09:41:30+00:00"
+    },
+    {
+      "id": "parapharmacie_lafayette",
+      "name": "Parapharmacie Lafayette",
+      "url": "https://www.parapharmacielafayette.com/fr/p/physiolac-bio-1-800-g-certbio-F29615.html",
+      "region": "France",
+      "mode": "product",
+      "status": "unknown",
+      "reason": "Accès refusé ou limité (HTTP 403)",
+      "checked_at": "2026-10-22T09:41:31+00:00"
+    },
+    {
+      "id": "pharmacie_saintmartin",
+      "name": "Pharmacie Saint-Martin",
+      "url": "https://www.pharmaciesaintmartin.fr/produit/physiolac-bio-1-lait-en-poudre-0-a-6-mois-800g",
+      "region": "France",
+      "mode": "product",
+      "status": "unknown",
+      "reason": "Aucune indication de stock suffisamment fiable",
+      "checked_at": "2026-10-22T09:41:31+00:00"
+    },
+    {
+      "id": "pharmashopi",
+      "name": "Pharmashopi (fiche à vérifier)",
+      "url": "https://www.pharmashopi.com/lait-en-poudre-bio-1re-age-croissance-mois-physiolac-pot-de-800-xml-25261_462_463-237944.html",
+      "region": "France",
+      "mode": "catalog",
+      "note": "Titre ambigu mentionnant croissance; EAN de la fiche non confirmé",
+      "status": "unknown",
+      "reason": "Catalogue local à consulter : stock du produit exact non vérifiable automatiquement",
+      "checked_at": "2026-10-22T09:41:31+00:00"
+    },
+    {
+      "id": "medimarket",
+      "name": "Medi-Market (formule / EAN à vérifier)",
+      "url": "https://medi-market.fr/fr/c/physiolac-bio-1-lait-poudre-nouvelle-formule-800g/p/75482",
+      "region": "France",
+      "mode": "catalog",
+      "note": "Nouvelle formule, EAN 3518646124167 non vérifié sur la fiche",
+      "status": "unknown",
+      "reason": "Catalogue local à consulter : stock du produit exact non vérifiable automatiquement",
+      "checked_at": "2026-10-22T09:41:31+00:00"
+    },
+    {
+      "id": "pharmamarket",
+      "name": "PharmaMarket (catalogue marque)",
+      "url": "https://www.pharmamarket.fr/marques/physiolac.html",
+      "region": "France",
+      "mode": "catalog",
+      "note": "Page de gamme: les stocks des autres formules ne confirment pas le Bio 1 800g",
+      "status": "unknown",
+      "reason": "Catalogue local à consulter : stock du produit exact non vérifiable automatiquement",
+      "checked_at": "2026-10-22T09:41:31+00:00"
     }
   ],
   "history": [
@@ -279,6 +404,12 @@
       "in_stock": 0,
       "out_of_stock": 7,
       "unknown": 8
+    },
+    {
+      "at": "2026-10-22T09:41:32+00:00",
+      "in_stock": 1,
+      "out_of_stock": 10,
+      "unknown": 16
     }
   ],
   "interval_minutes": 30,
@@ -286,13 +417,13 @@
     "ntfy"
   ],
   "last_alert": {
-    "at": "2026-10-21T21:39:14+00:00",
+    "at": "2026-10-22T09:41:32+00:00",
     "sent": [
       "ntfy"
     ],
     "errors": [],
     "shops": [
-      "lyon_partdieu"
+      "pharmacieoccitane"
     ]
   },
   "alerts_latched": {
@@ -302,6 +433,10 @@
     "pharmacieveau": false,
     "cocooncenter": false,
     "pharmashopdiscount": false,
-    "lyon_partdieu": false
+    "lyon_partdieu": false,
+    "pharmacierochettes": false,
+    "lafayette_annecy": false,
+    "pharmacie_dulac": false,
+    "pharmacieoccitane": true
   }
 }
