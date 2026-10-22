@@ -1,7 +1,7 @@
 {
   "product": "Physiolac Bio 1er âge 800 g",
   "ean": "3518646124167",
-  "last_check": "2026-10-22T21:38:05+00:00",
+  "last_check": "2026-10-22T22:10:37+00:00",
   "shops": [
     {
       "id": "atida",
@@ -15,7 +15,7 @@
       "delivery_checked_date": "2026-10-22",
       "status": "out_of_stock",
       "reason": "Rupture indiquée sur la fiche produit",
-      "checked_at": "2026-10-22T21:38:01+00:00"
+      "checked_at": "2026-10-22T22:10:33+00:00"
     },
     {
       "id": "newpharma",
@@ -29,7 +29,7 @@
       "delivery_checked_date": "2026-10-22",
       "status": "out_of_stock",
       "reason": "Donnée structurée du vendeur : rupture",
-      "checked_at": "2026-10-22T21:38:01+00:00"
+      "checked_at": "2026-10-22T22:10:33+00:00"
     },
     {
       "id": "redcare",
@@ -43,7 +43,7 @@
       "delivery_checked_date": "2026-10-22",
       "status": "out_of_stock",
       "reason": "Rupture indiquée sur la fiche produit",
-      "checked_at": "2026-10-22T21:38:01+00:00"
+      "checked_at": "2026-10-22T22:10:33+00:00"
     },
     {
       "id": "pharmacieveau",
@@ -57,7 +57,7 @@
       "delivery_checked_date": "2026-10-22",
       "status": "out_of_stock",
       "reason": "Rupture indiquée sur la fiche produit",
-      "checked_at": "2026-10-22T21:38:01+00:00"
+      "checked_at": "2026-10-22T22:10:33+00:00"
     },
     {
       "id": "easypara",
@@ -71,7 +71,7 @@
       "delivery_checked_date": "2026-10-22",
       "status": "unknown",
       "reason": "Accès refusé ou limité (HTTP 403)",
-      "checked_at": "2026-10-22T21:38:01+00:00"
+      "checked_at": "2026-10-22T22:10:34+00:00"
     },
     {
       "id": "cocooncenter",
@@ -85,7 +85,7 @@
       "delivery_checked_date": "2026-10-22",
       "status": "out_of_stock",
       "reason": "Rupture indiquée sur la fiche produit",
-      "checked_at": "2026-10-22T21:38:02+00:00"
+      "checked_at": "2026-10-22T22:10:34+00:00"
     },
     {
       "id": "pharma_gdd",
@@ -99,7 +99,7 @@
       "delivery_checked_date": "2026-10-22",
       "status": "unknown",
       "reason": "La fiche ne confirme pas la boîte de 800 g",
-      "checked_at": "2026-10-22T21:38:02+00:00"
+      "checked_at": "2026-10-22T22:10:34+00:00"
     },
     {
       "id": "pharmashopdiscount",
@@ -113,7 +113,7 @@
       "delivery_checked_date": "2026-10-22",
       "status": "out_of_stock",
       "reason": "Rupture indiquée sur la fiche produit",
-      "checked_at": "2026-10-22T21:38:02+00:00"
+      "checked_at": "2026-10-22T22:10:34+00:00"
     },
     {
       "id": "pharmacieposte",
@@ -127,7 +127,7 @@
       "delivery_checked_date": "2026-10-22",
       "status": "unknown",
       "reason": "Erreur du vendeur (HTTP 404)",
-      "checked_at": "2026-10-22T21:38:02+00:00"
+      "checked_at": "2026-10-22T22:10:34+00:00"
     },
     {
       "id": "lyon_partdieu",
@@ -143,7 +143,7 @@
       "note": "Livraison annoncée dans un rayon de 5 km ; la couverture de l’adresse exacte dans Lyon 6e doit être confirmée au panier.",
       "status": "out_of_stock",
       "reason": "Rupture indiquée sur la fiche produit",
-      "checked_at": "2026-10-22T21:38:02+00:00"
+      "checked_at": "2026-10-22T22:10:34+00:00"
     },
     {
       "id": "oullins_illicopharma",
@@ -159,7 +159,7 @@
       "note": "Livraison à domicile validée pour le vendeur ; aucune fiche directe du lait exact n’est surveillée, catalogue manuel uniquement.",
       "status": "unknown",
       "reason": "Catalogue local à consulter : stock du produit exact non vérifiable automatiquement",
-      "checked_at": "2026-10-22T21:38:03+00:00"
+      "checked_at": "2026-10-22T22:10:35+00:00"
     },
     {
       "id": "soinetnature",
@@ -173,7 +173,7 @@
       "delivery_checked_date": "2026-10-22",
       "status": "unknown",
       "reason": "Précommande ou stock fournisseur : disponibilité immédiate non confirmée",
-      "checked_at": "2026-10-22T21:38:03+00:00"
+      "checked_at": "2026-10-22T22:10:35+00:00"
     },
     {
       "id": "pharmacierochettes",
@@ -187,7 +187,7 @@
       "delivery_checked_date": "2026-10-22",
       "status": "out_of_stock",
       "reason": "Rupture indiquée sur la fiche produit",
-      "checked_at": "2026-10-22T21:38:03+00:00"
+      "checked_at": "2026-10-22T22:10:35+00:00"
     },
     {
       "id": "pharmapanda",
@@ -202,7 +202,7 @@
       "note": "Les laits infantiles sont exclus de la gratuité annoncée ; vérifier frais et transporteur au panier.",
       "status": "unknown",
       "reason": "La fiche produit n’est pas identifiable",
-      "checked_at": "2026-10-22T21:38:04+00:00"
+      "checked_at": "2026-10-22T22:10:35+00:00"
     },
     {
       "id": "parapharmacie_lafayette",
@@ -216,7 +216,7 @@
       "delivery_checked_date": "2026-10-22",
       "status": "unknown",
       "reason": "Accès refusé ou limité (HTTP 403)",
-      "checked_at": "2026-10-22T21:38:04+00:00"
+      "checked_at": "2026-10-22T22:10:36+00:00"
     },
     {
       "id": "pharmacie_saintmartin",
@@ -231,7 +231,7 @@
       "note": "La fiche contient une description ambiguë évoquant une formule épaissie malgré EAN correct. Vérifier la boîte exacte avant achat.",
       "status": "unknown",
       "reason": "Aucune indication de stock suffisamment fiable",
-      "checked_at": "2026-10-22T21:38:04+00:00"
+      "checked_at": "2026-10-22T22:10:36+00:00"
     },
     {
       "id": "pharmashopi",
@@ -246,7 +246,7 @@
       "delivery_checked_date": "2026-10-22",
       "status": "unknown",
       "reason": "Catalogue local à consulter : stock du produit exact non vérifiable automatiquement",
-      "checked_at": "2026-10-22T21:38:04+00:00"
+      "checked_at": "2026-10-22T22:10:36+00:00"
     }
   ],
   "history": [
@@ -456,6 +456,12 @@
     },
     {
       "at": "2026-10-22T21:38:05+00:00",
+      "in_stock": 0,
+      "out_of_stock": 8,
+      "unknown": 9
+    },
+    {
+      "at": "2026-10-22T22:10:37+00:00",
       "in_stock": 0,
       "out_of_stock": 8,
       "unknown": 9
