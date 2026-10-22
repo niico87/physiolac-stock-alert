@@ -1,7 +1,7 @@
 {
   "product": "Physiolac Bio 1er âge 800 g",
   "ean": "3518646124167",
-  "last_check": "2026-10-22T10:36:56+00:00",
+  "last_check": "2026-10-22T11:12:04+00:00",
   "shops": [
     {
       "id": "atida",
@@ -11,7 +11,7 @@
       "mode": "product",
       "status": "out_of_stock",
       "reason": "Rupture indiquée sur la fiche produit",
-      "checked_at": "2026-10-22T10:36:51+00:00"
+      "checked_at": "2026-10-22T11:11:59+00:00"
     },
     {
       "id": "newpharma",
@@ -21,7 +21,7 @@
       "mode": "product",
       "status": "out_of_stock",
       "reason": "Donnée structurée du vendeur : rupture",
-      "checked_at": "2026-10-22T10:36:51+00:00"
+      "checked_at": "2026-10-22T11:11:59+00:00"
     },
     {
       "id": "redcare",
@@ -31,7 +31,7 @@
       "mode": "product",
       "status": "out_of_stock",
       "reason": "Rupture indiquée sur la fiche produit",
-      "checked_at": "2026-10-22T10:36:51+00:00"
+      "checked_at": "2026-10-22T11:11:59+00:00"
     },
     {
       "id": "pharmacieveau",
@@ -41,7 +41,7 @@
       "mode": "product",
       "status": "out_of_stock",
       "reason": "Rupture indiquée sur la fiche produit",
-      "checked_at": "2026-10-22T10:36:51+00:00"
+      "checked_at": "2026-10-22T11:11:59+00:00"
     },
     {
       "id": "easypara",
@@ -51,7 +51,7 @@
       "mode": "product",
       "status": "unknown",
       "reason": "Accès refusé ou limité (HTTP 403)",
-      "checked_at": "2026-10-22T10:36:52+00:00"
+      "checked_at": "2026-10-22T11:12:00+00:00"
     },
     {
       "id": "cocooncenter",
@@ -61,7 +61,7 @@
       "mode": "product",
       "status": "out_of_stock",
       "reason": "Rupture indiquée sur la fiche produit",
-      "checked_at": "2026-10-22T10:36:52+00:00"
+      "checked_at": "2026-10-22T11:12:00+00:00"
     },
     {
       "id": "pharma_gdd",
@@ -71,7 +71,7 @@
       "mode": "product",
       "status": "unknown",
       "reason": "La fiche ne confirme pas la boîte de 800 g",
-      "checked_at": "2026-10-22T10:36:52+00:00"
+      "checked_at": "2026-10-22T11:12:00+00:00"
     },
     {
       "id": "pharmashopdiscount",
@@ -81,7 +81,7 @@
       "mode": "product",
       "status": "out_of_stock",
       "reason": "Rupture indiquée sur la fiche produit",
-      "checked_at": "2026-10-22T10:36:52+00:00"
+      "checked_at": "2026-10-22T11:12:00+00:00"
     },
     {
       "id": "pharmacieposte",
@@ -91,7 +91,7 @@
       "mode": "product",
       "status": "unknown",
       "reason": "Erreur du vendeur (HTTP 404)",
-      "checked_at": "2026-10-22T10:36:53+00:00"
+      "checked_at": "2026-10-22T11:12:00+00:00"
     },
     {
       "id": "lyon_partdieu",
@@ -102,7 +102,7 @@
       "address": "12 boulevard Marius Vivier Merle, Lyon 3e",
       "status": "out_of_stock",
       "reason": "Rupture indiquée sur la fiche produit",
-      "checked_at": "2026-10-22T10:36:53+00:00"
+      "checked_at": "2026-10-22T11:12:01+00:00"
     },
     {
       "id": "lyon_ambre",
@@ -113,7 +113,7 @@
       "address": "2 rue Hénon, Lyon 4e",
       "status": "unknown",
       "reason": "Catalogue local à consulter : stock du produit exact non vérifiable automatiquement",
-      "checked_at": "2026-10-22T10:36:53+00:00"
+      "checked_at": "2026-10-22T11:12:01+00:00"
     },
     {
       "id": "lyon_lyonnaise",
@@ -124,7 +124,7 @@
       "address": "22 rue de la République, Lyon 2e",
       "status": "unknown",
       "reason": "Catalogue local à consulter : stock du produit exact non vérifiable automatiquement",
-      "checked_at": "2026-10-22T10:36:53+00:00"
+      "checked_at": "2026-10-22T11:12:01+00:00"
     },
     {
       "id": "lyon_gambetta",
@@ -135,7 +135,7 @@
       "address": "100 cours Gambetta, Lyon 7e",
       "status": "unknown",
       "reason": "Catalogue local à consulter : stock du produit exact non vérifiable automatiquement",
-      "checked_at": "2026-10-22T10:36:53+00:00"
+      "checked_at": "2026-10-22T11:12:01+00:00"
     },
     {
       "id": "oullins_illicopharma",
@@ -146,7 +146,7 @@
       "address": "23 avenue Jean Jaurès, Oullins-Pierre-Bénite",
       "status": "unknown",
       "reason": "Catalogue local à consulter : stock du produit exact non vérifiable automatiquement",
-      "checked_at": "2026-10-22T10:36:53+00:00"
+      "checked_at": "2026-10-22T11:12:01+00:00"
     },
     {
       "id": "leclerc",
@@ -156,7 +156,7 @@
       "mode": "catalog",
       "status": "unknown",
       "reason": "Catalogue local à consulter : stock du produit exact non vérifiable automatiquement",
-      "checked_at": "2026-10-22T10:36:53+00:00"
+      "checked_at": "2026-10-22T11:12:01+00:00"
     },
     {
       "id": "pharmacieoccitane",
@@ -166,7 +166,7 @@
       "mode": "product",
       "status": "in_stock",
       "reason": "Donnée structurée du vendeur : disponible",
-      "checked_at": "2026-10-22T10:36:53+00:00"
+      "checked_at": "2026-10-22T11:12:01+00:00"
     },
     {
       "id": "soinetnature",
@@ -176,7 +176,7 @@
       "mode": "product",
       "status": "unknown",
       "reason": "Précommande ou stock fournisseur : disponibilité immédiate non confirmée",
-      "checked_at": "2026-10-22T10:36:53+00:00"
+      "checked_at": "2026-10-22T11:12:01+00:00"
     },
     {
       "id": "pharmacierochettes",
@@ -186,7 +186,7 @@
       "mode": "product",
       "status": "out_of_stock",
       "reason": "Rupture indiquée sur la fiche produit",
-      "checked_at": "2026-10-22T10:36:54+00:00"
+      "checked_at": "2026-10-22T11:12:01+00:00"
     },
     {
       "id": "lafayette_annecy",
@@ -197,7 +197,7 @@
       "address": "Annecy",
       "status": "out_of_stock",
       "reason": "Rupture indiquée sur la fiche produit",
-      "checked_at": "2026-10-22T10:36:54+00:00"
+      "checked_at": "2026-10-22T11:12:02+00:00"
     },
     {
       "id": "pharmacie_saintgery",
@@ -208,7 +208,7 @@
       "ean": "3518646124167",
       "status": "unknown",
       "reason": "La fiche produit n’est pas identifiable",
-      "checked_at": "2026-10-22T10:36:54+00:00"
+      "checked_at": "2026-10-22T11:12:02+00:00"
     },
     {
       "id": "pharmapanda",
@@ -218,7 +218,7 @@
       "mode": "product",
       "status": "unknown",
       "reason": "La fiche produit n’est pas identifiable",
-      "checked_at": "2026-10-22T10:36:55+00:00"
+      "checked_at": "2026-10-22T11:12:02+00:00"
     },
     {
       "id": "pharmacie_dulac",
@@ -228,7 +228,7 @@
       "mode": "product",
       "status": "out_of_stock",
       "reason": "Rupture indiquée sur la fiche produit",
-      "checked_at": "2026-10-22T10:36:55+00:00"
+      "checked_at": "2026-10-22T11:12:03+00:00"
     },
     {
       "id": "parapharmacie_lafayette",
@@ -238,7 +238,7 @@
       "mode": "product",
       "status": "unknown",
       "reason": "Accès refusé ou limité (HTTP 403)",
-      "checked_at": "2026-10-22T10:36:55+00:00"
+      "checked_at": "2026-10-22T11:12:04+00:00"
     },
     {
       "id": "pharmacie_saintmartin",
@@ -248,7 +248,7 @@
       "mode": "product",
       "status": "unknown",
       "reason": "Aucune indication de stock suffisamment fiable",
-      "checked_at": "2026-10-22T10:36:55+00:00"
+      "checked_at": "2026-10-22T11:12:04+00:00"
     },
     {
       "id": "pharmashopi",
@@ -259,7 +259,7 @@
       "note": "Titre ambigu mentionnant croissance; EAN de la fiche non confirmé",
       "status": "unknown",
       "reason": "Catalogue local à consulter : stock du produit exact non vérifiable automatiquement",
-      "checked_at": "2026-10-22T10:36:56+00:00"
+      "checked_at": "2026-10-22T11:12:04+00:00"
     },
     {
       "id": "medimarket",
@@ -270,7 +270,7 @@
       "note": "Nouvelle formule, EAN 3518646124167 non vérifié sur la fiche",
       "status": "unknown",
       "reason": "Catalogue local à consulter : stock du produit exact non vérifiable automatiquement",
-      "checked_at": "2026-10-22T10:36:56+00:00"
+      "checked_at": "2026-10-22T11:12:04+00:00"
     },
     {
       "id": "pharmamarket",
@@ -281,7 +281,7 @@
       "note": "Page de gamme: les stocks des autres formules ne confirment pas le Bio 1 800g",
       "status": "unknown",
       "reason": "Catalogue local à consulter : stock du produit exact non vérifiable automatiquement",
-      "checked_at": "2026-10-22T10:36:56+00:00"
+      "checked_at": "2026-10-22T11:12:04+00:00"
     }
   ],
   "history": [
@@ -413,6 +413,12 @@
     },
     {
       "at": "2026-10-22T10:36:56+00:00",
+      "in_stock": 1,
+      "out_of_stock": 10,
+      "unknown": 16
+    },
+    {
+      "at": "2026-10-22T11:12:04+00:00",
       "in_stock": 1,
       "out_of_stock": 10,
       "unknown": 16
